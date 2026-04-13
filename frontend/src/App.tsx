@@ -117,9 +117,9 @@ function LandingPage() {
               ⭐ Built for Soroban on Stellar
             </div>
             <h1 className="font-serif font-bold text-6xl md:text-8xl tracking-tighter text-text-main mb-6 leading-none">
-              The missing<br />
-              <span className="italic text-accent-indigo">developer kit</span><br />
-              for Soroban.
+              Your complete<br />
+              <span className="italic text-accent-indigo">Soroban developer</span><br />
+              toolkit.
             </h1>
             <p className="text-xl text-text-dim max-w-2xl mx-auto mb-10 leading-relaxed">
               StellKit fills the critical gaps in the Soroban developer experience —
