@@ -1,0 +1,10 @@
+[package]
+name = "inspector"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+stellar-xdr = { workspace = true }
+anyhow = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }

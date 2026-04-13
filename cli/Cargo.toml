@@ -1,0 +1,18 @@
+[package]
+name = "stellar-devkit"
+version = "0.1.0"
+edition = "2021"
+description = "A unified developer toolbox for Soroban smart contract development on Stellar"
+
+[[bin]]
+name = "sdk"
+path = "src/main.rs"
+
+[dependencies]
+clap = { workspace = true }
+anyhow = { workspace = true }
+tokio = { workspace = true }
+inspector = { path = "../crates/inspector" }
+profiler = { path = "../crates/profiler" }
+differ = { path = "../crates/differ" }
+fork = { path = "../crates/fork" }
